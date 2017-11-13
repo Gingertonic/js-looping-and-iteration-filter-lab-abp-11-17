@@ -14,9 +14,15 @@ return matchingFirstLetter
 }
 
 
+// function matchName(drivers, string) {
+//   let matchingNames = drivers.filter(function(drivername) {
+//     return drivers["name"] === string;
+//   })
+// return matchingNames;
+// }
+
 function matchName(drivers, string) {
-  let matchingNames = drivers.filter(function(drivername) {
-    return drivers["name"] === string;
+  let matchingNames = drivers.filter(function(drivername){
+      return drivers["name"] === drivername;
   })
-return matchingNames;
 }
