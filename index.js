@@ -22,7 +22,7 @@ return matchingFirstLetter
 // }
 
 function matchName(drivers, string) {
-  let matchingNames = drivers.filter(function(drivername){
-      return drivers["name"] === drivername;
-  })
+  drivers.filter(function(driver){
+      // return drivers["name"] === drivername;
+      return driver["name"] === string 
 }
