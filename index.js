@@ -22,7 +22,7 @@ return matchingFirstLetter
 // }
 
 function matchName(drivers, string) {
-  drivers.filter(function(driver){
+  return drivers.filter(function(driver){
       // return drivers["name"] === drivername;
       return driver["name"].toUpperCase() === string.toUpperCase();
 })
